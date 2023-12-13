@@ -5,9 +5,12 @@ terraform {
     region = "us-east-2"
   }
   required_providers {
-    docker = {
-      source  = "kreuzwerker/docker"
-      version = "3.0.2"
+    #   docker = {
+    #     source  = "kreuzwerker/docker"
+    #     version = "3.0.2"
+    #   }
+    aws = {
+      version = "5.23.1"
     }
   }
 }
