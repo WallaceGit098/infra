@@ -1,1 +1,1 @@
-terraform/.terraform/providers/*
+app-deploy/terraform/.terraform/providers/*
