@@ -10,3 +10,6 @@ variable "public_subnet_id_2" {
 variable "vpc_id" {
   type = string
 }
+variable "instance_id" {
+  type = string
+}

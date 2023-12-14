@@ -1,5 +1,5 @@
 resource "aws_nat_gateway" "app-nat-gateway" {
-  allocation_id = aws_eip.nat_gateway_elastic_ip.id
+  allocation_id = var.elastic_ip_id
   subnet_id     = aws_subnet.public_subnet.id
 
   tags = {
